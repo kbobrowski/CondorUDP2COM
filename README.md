@@ -8,7 +8,7 @@ Check decodeFrame method from CondorUDP2COM.py for hints how to decode the frame
 
 ## Installation
 
-Installer is available from the releases.
+Installer is available: https://github.com/kbobrowski/CondorUDP2COM/releases/download/v1.0/install_CondorUDP2COM.exe
 
 ## Video
 
