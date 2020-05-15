@@ -267,8 +267,11 @@ class MainWidget(QtWidgets.QWidget):
         valList = []
         for line in lines:
             if line[0]:
-                parList.append(line[0])
-                valList.append(float(line[1]))
+                try:
+                    parList.append(line[0])
+                    valList.append(float(line[1]))
+                except ValueError:
+                    pass
         self.model.updateData(parList, valList)
         if hasattr(self, 'serial'):
             frame = self.formatFrame()

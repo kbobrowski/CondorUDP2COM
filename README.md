@@ -4,7 +4,14 @@ Application to catch Condor UDP data stream, convert it to data frame and send o
 
 ## Installation
 
-Installer is available: https://github.com/kbobrowski/CondorUDP2COM/releases/download/v1.0/install_CondorUDP2COM.exe
+Installer is available: https://github.com/kbobrowski/CondorUDP2COM/releases/download/v1.1/install_CondorUDP2COM.exe
+
+Remember to enable UDP.ini in Condor directory (in Condor2 it is located in Settings subdirectory):
+
+```
+[General]
+Enabled=1
+```
 
 ## Video
 
